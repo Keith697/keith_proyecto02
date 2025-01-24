@@ -17,7 +17,7 @@ public class Ahorroeconomico {
      tarifahora=entrada.nextDouble();
      
      sueldobruto = horastrabajadas * tarifahora;
-     descuento = sueldobruto * 0.13;
+     descuento = sueldobruto * 0.15;
      sueldoneto = sueldobruto - descuento;
      
      System.out.println("Detalle del empleado");
